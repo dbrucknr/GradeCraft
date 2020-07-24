@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # Local Applications
     'users.apps.UsersConfig',
     'assignments.apps.AssignmentsConfig',
+    'courses.apps.CoursesConfig',
 ]
 
 AUTH_USER_MODEL = 'users.User'
